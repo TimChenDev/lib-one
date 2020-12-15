@@ -9,6 +9,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         // 建立一個 aidl 的 binder
-        val binder = ICheck.Stub.asInterface(null)
+        val binder = ICheckV2.Stub.asInterface(null)
     }
 }
